@@ -1,0 +1,21 @@
+{
+    "name": "augmentedlogic/socialpreview",
+    "description": "Retrieve social media preview data (opengraph, twitter card, meta data) from a web page",
+    "homepage": "https://developer.augmentedlogic.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wolfgang Hauptfleisch",
+            "email": "dev@augmentedlogic.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "com\\augmentedlogic\\socialpreview\\": "src"
+        }
+    }
+}
